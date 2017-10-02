@@ -10,7 +10,7 @@ function Recognition004_Digits()
     nTrainImages = size(imgTrainAll, 2);
     nNumber = randi([1 nTrainImages]);
     figure;
-    img = imgTrainAll(: , nNumber);
+    img = imgTrainAll(: ,nNumber);
     img2D = reshape(img,28,28);
     strLabelImage = num2str(lblTrainAll(nNumber));
     strLabelImage = [strLabelImage , '(',num2str(nNumber),')'];

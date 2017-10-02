@@ -2,10 +2,10 @@ function Recognition003_Digits()
     fprintf('\nNap du lieu train');
     imgTrainAll = loadMNISTImages('./train-images.idx3-ubyte');
     lblTrainAll = loadMNISTLabels('./train-labels.idx1-ubyte');
-    fprintf('\nNap du lieu test');
+    %fprintf('\nNap du lieu test');
     
-    imgTestAll = loadMNISTImages('./t10k-images.idx3-ubyte');
-    lblTestAll = loadMNISTLabels('./t10k-labels.idx1-ubyte');
+    %imgTestAll = loadMNISTImages('./t10k-images.idx3-ubyte');
+    %lblTestAll = loadMNISTLabels('./t10k-labels.idx1-ubyte');
     
     nTrainImages = size(imgTrainAll, 2);
     
